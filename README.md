@@ -1,5 +1,5 @@
 # Kid-Ex-Android-Development-Project
-A simple Android Development Project using explicit intent which takes username and password and navigates to next welcome page using intent event listener
+A simple Android Development Project using explicit intent which takes username and password and navigates to the next welcome page using an intent event listener.
 
 ## 📌 Project Overview
 This is an Android application developed in Java. It includes Java source files, XML layout files, and a pre-built APK for installation.
@@ -14,26 +14,18 @@ This is an Android application developed in Java. It includes Java source files,
 │-- app.apk                                # Pre-built APK
 ```
 
-## 🚀 How to Set Up the Project in IntelliJ IDEA
-### 1️⃣ **Install IntelliJ IDEA and Required Plugins**
-- Ensure you have **IntelliJ IDEA (Ultimate or Community Edition)** installed.
-- Install the **Android Plugin** (Go to `File → Settings → Plugins → Search for "Android" → Install`).
+## 🚀 How to Set Up the Project in Android Studio
+### 1️⃣ **Install Android Studio**
+- Download and install **Android Studio** from the [official website](https://developer.android.com/studio).
+- Open Android Studio and set up the **Android SDK** during installation.
 
-### 2️⃣ **Install the Android SDK** (If Not Installed)
-- Go to **SDK Manager** (`File → Project Structure → SDKs → Add → Android SDK`).
-- If the SDK is not installed, download it from [Android Developer](https://developer.android.com/studio#downloads).
+### 2️⃣ **Open the Project in Android Studio**
+1. Launch **Android Studio**.
+2. Click **"Open"** and select your project folder.
+3. Wait for **Gradle sync** to complete.
 
-### 3️⃣ **Open the Project in IntelliJ**
-1. **Open IntelliJ IDEA**
-2. Click **"Open"** and select your project folder
-3. Wait for Gradle sync to complete
-
-### 4️⃣ **Manually Add Missing Directories (If Needed)**
-- If the `res/layout/` folder is missing:
-  1. Right-click `res/` → `New → Directory` → Name it **layout**.
-  2. Move your XML files into this folder.
-
-### 5️⃣ **Ensure `AndroidManifest.xml` is Correct**
+### 3️⃣ **Verify Project Structure**
+- Ensure `res/layout/` contains the necessary XML layout files.
 - Open `AndroidManifest.xml` and verify that `MainActivity` is properly registered:
   ```xml
   <activity android:name=".MainActivity">
@@ -44,10 +36,16 @@ This is an Android application developed in Java. It includes Java source files,
   </activity>
   ```
 
-### 6️⃣ **Run the Application on an Emulator or Device**
+### 4️⃣ **Run the Application on an Emulator or Device**
 - Click **Run ▶** or press **Shift + F10**.
 - Select an emulator or connected Android device.
 - If you don't have an emulator, create one using **AVD Manager** (`Tools → Device Manager`).
+
+## 🛠 Alternative: Setting Up the Project in IntelliJ IDEA
+- Install **IntelliJ IDEA (Ultimate or Community Edition)**.
+- Install the **Android Plugin** (`File → Settings → Plugins → Search "Android" → Install`).
+- Configure the **Android SDK** (`File → Project Structure → SDKs → Add → Android SDK`).
+- Open the project and allow **Gradle sync** to complete.
 
 ## 📱 Installing the APK
 - If you just want to install and test the app without running the code:
