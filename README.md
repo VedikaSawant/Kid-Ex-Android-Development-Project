@@ -57,3 +57,10 @@ This is an Android application developed in Java. It includes Java source files,
 - **Gradle Sync Errors?** → Try `File → Invalidate Caches & Restart`.
 - **Android SDK Not Found?** → Set the SDK path in `File → Project Structure → SDK Location`.
 - **App Crashing?** → Check the **Logcat** (`View → Tool Windows → Logcat`).
+
+## 📸 Output
+
+| Login Page | Welcome Page |
+|------------|--------------|
+| ![Login](screenshots/login.png) | ![Welcome](screenshots/welcome.png) |
+
